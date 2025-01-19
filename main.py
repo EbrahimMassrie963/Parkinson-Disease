@@ -115,7 +115,7 @@ st.markdown(
 st.markdown(
     f"<div style='display: flex; align-items: center; margin-bottom: 10px;'>"
     f"<img src='data:image/png;base64,{audio_icon_base64}' alt='Audio Icon' style='width: 24px; margin-right: 8px;'>"
-    f"<label for='audio_file' style='color: #f5f5f5;'>Audio File</label>"
+    f"<label for='audio_file' style='color: Black;'>Audio File</label>"
     "</div>",
     unsafe_allow_html=True,
 )
@@ -130,7 +130,7 @@ audio_file = st.file_uploader(
 st.markdown(
     f"<div style='display: flex; align-items: center; margin-bottom: 10px;'>"
     f"<img src='data:image/png;base64,{image_icon_base64}' alt='Image Icon' style='width: 24px; margin-right: 8px;'>"
-    f"<label for='image_file' style='color: #f5f5f5;'>Drawing Image</label>"
+    f"<label for='image_file' style='color: Black;'>Drawing Image</label>"
     "</div>",
     unsafe_allow_html=True,
 )
