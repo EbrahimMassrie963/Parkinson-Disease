@@ -90,15 +90,17 @@ parkinson_image = Image.open(parkinson_image_path)
 audio_icon_base64 = encode_image(audio_icon_path)
 image_icon_base64 = encode_image(image_icon_path)
 
+
 # Sidebar with information
 with st.sidebar:
-    st.image(parkinson_image, caption="Parkinson's Awareness", use_column_width=True)
+    st.image(parkinson_image, caption="Parkinson's Awareness", use_container_width=True)
     st.markdown("### About Parkinson's Disease")
     st.markdown(
         '<p style="color:black;">Parkinson\'s disease is a progressive nervous system disorder that affects movement. '
         'Early detection and diagnosis can help manage symptoms more effectively.</p>',
-        unsafe_allow_html=True
+        unsafe_allow_html=True 
     )
+
 
 # Main title and description
 st.title("🧠 Parkinson's Disease Prediction")
