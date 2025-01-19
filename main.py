@@ -96,7 +96,7 @@ with st.sidebar:
     st.image(parkinson_image, caption="Parkinson's Awareness", use_container_width=True)
     st.markdown("### About Parkinson's Disease")
     st.markdown(
-        '<p style="color:black;">Parkinson\'s disease is a progressive nervous system disorder that affects movement. '
+        '<p style="color:Gray;">Parkinson\'s disease is a progressive nervous system disorder that affects movement. '
         'Early detection and diagnosis can help manage symptoms more effectively.</p>',
         unsafe_allow_html=True 
     )
